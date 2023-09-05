@@ -1,0 +1,159 @@
+.spinnerContainer {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.container {
+  width: 100%;
+  position: relative;
+}
+
+.imagesContainer {
+  width: 100%;
+  height: 470px;
+  overflow: hidden;
+}
+
+.backdropImg {
+  width: 100%;
+  min-width: 1440px;
+  object-fit: cover;
+  object-position: 0 -125px;
+}
+
+.posterContainer {
+  z-index: 20;
+  position: absolute;
+  top: 300px;
+  left: 70px;
+}
+
+.posterImg {
+  width: 205px;
+  height: 308px;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.infoHead {
+  margin-left: 320px;
+  margin-top: 35px;
+}
+
+.title {
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.subtitleBox {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: row;
+}
+
+.starContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.starIcon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  fill: #fff;
+}
+
+.trailerBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 190px;
+  height: 50px;
+  margin-left: 50px;
+  border-radius: 3px;
+  background-color: #ffda18;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.trailerBtn:hover {
+  background-color: #d3b314;
+}
+
+.trailerBtn:active {
+  background-color: #aa9111;
+}
+
+.mainBox {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.mainBoxTitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 60px;
+}
+
+.overviewText {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.genresListItem {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.companiesList {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+  margin: 0;
+  padding: 0;
+}
+
+.companiesListItem {
+  display: flex;
+  flex-direction: column;
+  width: 130px;
+}
+
+.companiesListItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 160px;
+
+}
+
+.rejectContainer {
+  composes: container;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.errorImg {
+  width: 500px;
+}

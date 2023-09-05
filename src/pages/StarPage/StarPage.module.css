@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.spinnerContainer {
+  composes: container;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.infoBox {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.profileImgBox {
+  overflow: hidden;
+  min-width: 420px;
+}
+
+.profileImg {
+  width: 420px;
+  height: 632px;
+  border-radius: 10px;
+}
+
+.profileTextBox {
+  margin-left: 20px;
+}
+
+.name {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.about {
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.bioTitle {
+  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.biography {
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.errorContainer {
+  composes: container;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.errorImg {
+  width: 500px;
+  height: auto;
+}
+
+.errorTitle {
+  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
